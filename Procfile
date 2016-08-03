@@ -1,1 +1,1 @@
-worker: Top100Start.py 
+worker: python Top100Start.py 
