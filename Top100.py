@@ -147,6 +147,10 @@ class Top100(object):
             time_factor=3
         elif elapsed_hours <= 4:
             time_factor=2
+        elif elapsed_hours <= 6:
+            time_factor=1
+        elif elapsed_hours <= 8:
+            time_factor=2
         elif elapsed_hours <= 10:
             time_factor=4
         elif elapsed_hours <= 12:
