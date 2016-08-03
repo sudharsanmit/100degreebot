@@ -1,0 +1,195 @@
+2016-08-03 06:12:36,564: ModelBootstrap : INFO    : Thread-1   : Starting Threads
+2016-08-03 06:12:36,588: ModelBootstrap : INFO    : Thread-1   : Started all Threads.
+2016-08-03 06:12:36,606: urllib3.connectionpool: INFO    : Thread-94  : Starting new HTTP connection (1): twittercounter.com
+2016-08-03 06:12:36,606: Top100         : INFO    : Thread-28  : PICKLIST    : Top 100 List Picked.
+2016-08-03 06:12:36,627: Top100         : INFO    : Thread-4   : PICKUSER    : Twitter User picked.
+2016-08-03 06:12:36,630: Top100         : INFO    : Thread-13  : AUTHUSER    : User Authorized.
+2016-08-03 06:12:38,620: Top100         : INFO    : Thread-94  : GETHANDLESFROMURL:Got Handles.
+2016-08-03 06:12:46,609: tweepy.binder  : INFO    : Thread-35  : PARAMS: {'slug': b'Top100', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:12:46,628: requests.packages.urllib3.connectionpool: INFO    : Thread-35  : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:12:51,763: Top100         : INFO    : Thread-35  : GETLIST    : Got List.
+2016-08-03 06:12:52,056: tweepy.binder  : INFO    : Thread-75  : PARAMS: {'slug': b'Top100', 'cursor': b'-1', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:12:52,058: requests.packages.urllib3.connectionpool: INFO    : Thread-75  : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:12:52,580: tweepy.binder  : INFO    : Thread-75  : PARAMS: {'slug': b'Top100', 'cursor': b'4611686018584528872', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:12:52,791: tweepy.binder  : INFO    : Thread-75  : PARAMS: {'slug': b'Top100', 'cursor': b'4611686018511667867', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:12:53,151: tweepy.binder  : INFO    : Thread-75  : PARAMS: {'slug': b'Top100', 'cursor': b'4611686018453645070', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:12:53,455: tweepy.binder  : INFO    : Thread-75  : PARAMS: {'slug': b'Top100', 'cursor': b'4611686018446446585', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:12:53,698: tweepy.binder  : INFO    : Thread-75  : PARAMS: {'slug': b'Top100', 'cursor': b'4611686018432790516', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:12:53,853: Top100         : INFO    : Thread-75  : GETLISTMEMBERS:Got list members.
+2016-08-03 06:12:56,608: Top100         : INFO    : Thread-107 : BUILDLIST  :List built.
+2016-08-03 06:12:56,612: tweepy.binder  : INFO    : Thread-120 : PARAMS: {'slug': b'Top100', 'per_page': b'20', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:12:56,614: requests.packages.urllib3.connectionpool: INFO    : Thread-120 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:12:57,123: Top100         : INFO    : Thread-120 : GetListTimeline: Got List Timeline. Now - 2016-08-03 04:43:26. Target - 2016-08-02 15:12:57.123217
+2016-08-03 06:12:57,155: Top100         : INFO    : Thread-164 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:12:57,624: tweepy.binder  : INFO    : Thread-136 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760697562819067904', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:12:57,631: requests.packages.urllib3.connectionpool: INFO    : Thread-136 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:12:58,125: Top100         : INFO    : Thread-136 : GetListTimeline: Got List Timeline. Now - 2016-08-03 04:10:10. Target - 2016-08-02 15:12:58.125275
+2016-08-03 06:12:58,169: Top100         : INFO    : Thread-176 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:12:58,217: tweepy.binder  : INFO    : Thread-126 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760689190132715521', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:12:58,219: requests.packages.urllib3.connectionpool: INFO    : Thread-126 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:12:58,698: Top100         : INFO    : Thread-126 : GetListTimeline: Got List Timeline. Now - 2016-08-03 03:30:46. Target - 2016-08-02 15:12:58.698308
+2016-08-03 06:12:58,700: Top100         : INFO    : Thread-174 : GETTWEET   :Got 18 tweets.
+2016-08-03 06:12:58,718: tweepy.binder  : INFO    : Thread-128 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760679273149657088', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:12:58,720: requests.packages.urllib3.connectionpool: INFO    : Thread-128 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:12:59,246: Top100         : INFO    : Thread-128 : GetListTimeline: Got List Timeline. Now - 2016-08-03 03:06:04. Target - 2016-08-02 15:12:59.246339
+2016-08-03 06:12:59,727: Top100         : INFO    : Thread-178 : GETTWEET   :Got 19 tweets.
+2016-08-03 06:12:59,732: tweepy.binder  : INFO    : Thread-120 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760673058554347520', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:12:59,735: requests.packages.urllib3.connectionpool: INFO    : Thread-120 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:00,732: Top100         : INFO    : Thread-120 : GetListTimeline: Got List Timeline. Now - 2016-08-03 02:35:05. Target - 2016-08-02 15:13:00.732424
+2016-08-03 06:13:00,743: Top100         : INFO    : Thread-168 : GETTWEET   :Got 19 tweets.
+2016-08-03 06:13:00,746: tweepy.binder  : INFO    : Thread-122 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760665259547951104', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:00,750: requests.packages.urllib3.connectionpool: INFO    : Thread-122 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:01,270: Top100         : INFO    : Thread-122 : GetListTimeline: Got List Timeline. Now - 2016-08-03 02:00:16. Target - 2016-08-02 15:13:01.270455
+2016-08-03 06:13:01,762: Top100         : INFO    : Thread-174 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:02,273: tweepy.binder  : INFO    : Thread-136 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760656500951887872', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:02,275: requests.packages.urllib3.connectionpool: INFO    : Thread-136 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:02,750: Top100         : INFO    : Thread-136 : GetListTimeline: Got List Timeline. Now - 2016-08-03 01:24:43. Target - 2016-08-02 15:13:02.750539
+2016-08-03 06:13:02,778: Top100         : INFO    : Thread-160 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:03,314: tweepy.binder  : INFO    : Thread-122 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760647552224100352', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:03,317: requests.packages.urllib3.connectionpool: INFO    : Thread-122 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:03,781: Top100         : INFO    : Thread-122 : GetListTimeline: Got List Timeline. Now - 2016-08-03 00:56:05. Target - 2016-08-02 15:13:03.781598
+2016-08-03 06:13:03,789: Top100         : INFO    : Thread-178 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:03,829: tweepy.binder  : INFO    : Thread-128 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760640345780748288', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:03,831: requests.packages.urllib3.connectionpool: INFO    : Thread-128 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:04,465: Top100         : INFO    : Thread-128 : GetListTimeline: Got List Timeline. Now - 2016-08-03 00:26:03. Target - 2016-08-02 15:13:04.465637
+2016-08-03 06:13:04,799: Top100         : INFO    : Thread-160 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:04,803: tweepy.binder  : INFO    : Thread-120 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760632789398159360', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:04,806: requests.packages.urllib3.connectionpool: INFO    : Thread-120 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:05,811: Top100         : INFO    : Thread-120 : GetListTimeline: Got List Timeline. Now - 2016-08-03 00:00:08. Target - 2016-08-02 15:13:05.811714
+2016-08-03 06:13:05,812: Top100         : INFO    : Thread-168 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:06,326: tweepy.binder  : INFO    : Thread-120 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760626267750297600', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:06,332: requests.packages.urllib3.connectionpool: INFO    : Thread-120 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:07,300: Top100         : INFO    : Thread-120 : GetListTimeline: Got List Timeline. Now - 2016-08-02 23:35:16. Target - 2016-08-02 15:13:07.300800
+2016-08-03 06:13:07,342: tweepy.binder  : INFO    : Thread-122 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760620009668288513', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:07,345: Top100         : INFO    : Thread-168 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:07,346: requests.packages.urllib3.connectionpool: INFO    : Thread-122 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:07,980: Top100         : INFO    : Thread-122 : GetListTimeline: Got List Timeline. Now - 2016-08-02 23:15:18. Target - 2016-08-02 15:13:07.980838
+2016-08-03 06:13:08,777: Top100         : INFO    : Thread-162 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:08,857: tweepy.binder  : INFO    : Thread-126 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760614984518815744', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:08,860: requests.packages.urllib3.connectionpool: INFO    : Thread-126 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:09,476: Top100         : INFO    : Thread-126 : GetListTimeline: Got List Timeline. Now - 2016-08-02 22:51:09. Target - 2016-08-02 15:13:09.476924
+2016-08-03 06:13:09,870: Top100         : INFO    : Thread-160 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:09,991: tweepy.binder  : INFO    : Thread-126 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760608906808815616', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:09,993: requests.packages.urllib3.connectionpool: INFO    : Thread-126 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:10,604: Top100         : INFO    : Thread-126 : GetListTimeline: Got List Timeline. Now - 2016-08-02 22:30:07. Target - 2016-08-02 15:13:10.604989
+2016-08-03 06:13:10,883: Top100         : INFO    : Thread-176 : GETTWEET   :Got 18 tweets.
+2016-08-03 06:13:10,888: tweepy.binder  : INFO    : Thread-132 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760603614519762944', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:10,890: requests.packages.urllib3.connectionpool: INFO    : Thread-132 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:11,366: Top100         : INFO    : Thread-132 : GetListTimeline: Got List Timeline. Now - 2016-08-02 22:05:35. Target - 2016-08-02 15:13:11.366032
+2016-08-03 06:13:11,400: Top100         : INFO    : Thread-166 : GETTWEET   :Got 19 tweets.
+2016-08-03 06:13:11,899: tweepy.binder  : INFO    : Thread-126 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760597441095819264', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:11,903: requests.packages.urllib3.connectionpool: INFO    : Thread-126 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:12,416: Top100         : INFO    : Thread-126 : GetListTimeline: Got List Timeline. Now - 2016-08-02 21:50:10. Target - 2016-08-02 15:13:12.416092
+2016-08-03 06:13:12,913: Top100         : INFO    : Thread-176 : GETTWEET   :Got 19 tweets.
+2016-08-03 06:13:12,917: tweepy.binder  : INFO    : Thread-126 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760593561075277826', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:12,919: requests.packages.urllib3.connectionpool: INFO    : Thread-126 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:13,435: Top100         : INFO    : Thread-126 : GetListTimeline: Got List Timeline. Now - 2016-08-02 21:36:23. Target - 2016-08-02 15:13:13.435150
+2016-08-03 06:13:13,927: Top100         : INFO    : Thread-160 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:13,929: tweepy.binder  : INFO    : Thread-132 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760590090108272645', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:13,932: requests.packages.urllib3.connectionpool: INFO    : Thread-132 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:14,450: Top100         : INFO    : Thread-132 : GetListTimeline: Got List Timeline. Now - 2016-08-02 21:20:37. Target - 2016-08-02 15:13:14.450208
+2016-08-03 06:13:14,941: Top100         : INFO    : Thread-162 : GETTWEET   :Got 19 tweets.
+2016-08-03 06:13:14,951: tweepy.binder  : INFO    : Thread-132 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760586124985298945', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:14,954: requests.packages.urllib3.connectionpool: INFO    : Thread-132 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:15,627: Top100         : INFO    : Thread-132 : GetListTimeline: Got List Timeline. Now - 2016-08-02 21:00:03. Target - 2016-08-02 15:13:15.627276
+2016-08-03 06:13:15,961: Top100         : INFO    : Thread-176 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:16,422: tweepy.binder  : INFO    : Thread-187 : PARAMS: {'id': b'760685165387649024'}
+2016-08-03 06:13:16,424: requests.packages.urllib3.connectionpool: INFO    : Thread-187 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:16,467: tweepy.binder  : INFO    : Thread-134 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760580945820909568', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:16,472: requests.packages.urllib3.connectionpool: INFO    : Thread-134 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:16,852: Top100         : INFO    : Thread-187 : RETWEET     : User  - SportsCenter, Favorite - 1798 , Retweet -   892
+2016-08-03 06:13:16,993: Top100         : INFO    : Thread-134 : GetListTimeline: Got List Timeline. Now - 2016-08-02 20:39:06. Target - 2016-08-02 15:13:16.993354
+2016-08-03 06:13:17,480: Top100         : INFO    : Thread-176 : GETTWEET   :Got 19 tweets.
+2016-08-03 06:13:17,486: tweepy.binder  : INFO    : Thread-124 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760575676684480512', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:17,488: requests.packages.urllib3.connectionpool: INFO    : Thread-124 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:18,598: Top100         : INFO    : Thread-124 : GetListTimeline: Got List Timeline. Now - 2016-08-02 20:13:20. Target - 2016-08-02 15:13:18.598446
+2016-08-03 06:13:18,998: Top100         : INFO    : Thread-176 : GETTWEET   :Got 19 tweets.
+2016-08-03 06:13:19,510: tweepy.binder  : INFO    : Thread-132 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760569189044289546', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:19,514: requests.packages.urllib3.connectionpool: INFO    : Thread-132 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:20,022: Top100         : INFO    : Thread-132 : GetListTimeline: Got List Timeline. Now - 2016-08-02 20:00:27. Target - 2016-08-02 15:13:20.022527
+2016-08-03 06:13:20,523: Top100         : INFO    : Thread-160 : GETTWEET   :Got 19 tweets.
+2016-08-03 06:13:21,024: tweepy.binder  : INFO    : Thread-120 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760565950487769092', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:21,026: requests.packages.urllib3.connectionpool: INFO    : Thread-120 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:21,722: Top100         : INFO    : Thread-120 : GetListTimeline: Got List Timeline. Now - 2016-08-02 19:40:09. Target - 2016-08-02 15:13:21.722624
+2016-08-03 06:13:22,472: Top100         : INFO    : Thread-170 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:22,552: tweepy.binder  : INFO    : Thread-130 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760560838390476800', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:22,555: requests.packages.urllib3.connectionpool: INFO    : Thread-130 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:23,098: Top100         : INFO    : Thread-130 : GetListTimeline: Got List Timeline. Now - 2016-08-02 19:15:22. Target - 2016-08-02 15:13:23.098703
+2016-08-03 06:13:23,572: Top100         : INFO    : Thread-170 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:23,573: tweepy.binder  : INFO    : Thread-128 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760554603465310209', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:23,576: requests.packages.urllib3.connectionpool: INFO    : Thread-128 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:24,124: Top100         : INFO    : Thread-128 : GetListTimeline: Got List Timeline. Now - 2016-08-02 19:00:03. Target - 2016-08-02 15:13:24.124762
+2016-08-03 06:13:24,581: Top100         : INFO    : Thread-176 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:24,584: tweepy.binder  : INFO    : Thread-126 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760550749537460225', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:24,587: requests.packages.urllib3.connectionpool: INFO    : Thread-126 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:25,114: Top100         : INFO    : Thread-126 : GetListTimeline: Got List Timeline. Now - 2016-08-02 18:33:20. Target - 2016-08-02 15:13:25.114818
+2016-08-03 06:13:26,033: tweepy.binder  : INFO    : Thread-136 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760544024906301440', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:26,036: requests.packages.urllib3.connectionpool: INFO    : Thread-136 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:26,064: Top100         : INFO    : Thread-164 : GETTWEET   :Got 19 tweets.
+2016-08-03 06:13:26,518: Top100         : INFO    : Thread-136 : GetListTimeline: Got List Timeline. Now - 2016-08-02 18:13:38. Target - 2016-08-02 15:13:26.518899
+2016-08-03 06:13:26,654: Top100         : INFO    : Thread-178 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:27,543: tweepy.binder  : INFO    : Thread-120 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760539068534894593', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:27,547: requests.packages.urllib3.connectionpool: INFO    : Thread-120 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:28,066: Top100         : INFO    : Thread-120 : GetListTimeline: Got List Timeline. Now - 2016-08-02 18:00:07. Target - 2016-08-02 15:13:28.066987
+2016-08-03 06:13:28,067: Top100         : INFO    : Thread-162 : GETTWEET   :Got 19 tweets.
+2016-08-03 06:13:28,560: tweepy.binder  : INFO    : Thread-126 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760535667197829120', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:28,562: requests.packages.urllib3.connectionpool: INFO    : Thread-126 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:29,100: Top100         : INFO    : Thread-126 : GetListTimeline: Got List Timeline. Now - 2016-08-02 17:44:47. Target - 2016-08-02 15:13:29.100046
+2016-08-03 06:13:29,618: Top100         : INFO    : Thread-164 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:30,086: tweepy.binder  : INFO    : Thread-136 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760531805384695808', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:30,090: requests.packages.urllib3.connectionpool: INFO    : Thread-136 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:30,607: Top100         : INFO    : Thread-136 : GetListTimeline: Got List Timeline. Now - 2016-08-02 17:28:24. Target - 2016-08-02 15:13:30.606133
+2016-08-03 06:13:31,100: Top100         : INFO    : Thread-162 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:31,602: tweepy.binder  : INFO    : Thread-128 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760527682312531968', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:31,605: requests.packages.urllib3.connectionpool: INFO    : Thread-128 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:32,127: Top100         : INFO    : Thread-128 : GetListTimeline: Got List Timeline. Now - 2016-08-02 17:05:03. Target - 2016-08-02 15:13:32.127220
+2016-08-03 06:13:32,616: Top100         : INFO    : Thread-164 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:32,659: tweepy.binder  : INFO    : Thread-191 : PARAMS: {'id': b'760689179957354497'}
+2016-08-03 06:13:32,661: requests.packages.urllib3.connectionpool: INFO    : Thread-191 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:33,068: Top100         : INFO    : Thread-191 : RETWEET     : User  - NFL       , Favorite - 842  , Retweet -   303
+2016-08-03 06:13:33,130: tweepy.binder  : INFO    : Thread-118 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760521807300616192', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:33,132: requests.packages.urllib3.connectionpool: INFO    : Thread-118 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:33,640: Top100         : INFO    : Thread-118 : GetListTimeline: Got List Timeline. Now - 2016-08-02 16:48:31. Target - 2016-08-02 15:13:33.640306
+2016-08-03 06:13:34,174: Top100         : INFO    : Thread-172 : GETTWEET   :Got 19 tweets.
+2016-08-03 06:13:34,644: tweepy.binder  : INFO    : Thread-120 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760517648706854912', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:34,646: requests.packages.urllib3.connectionpool: INFO    : Thread-120 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:35,201: Top100         : INFO    : Thread-120 : GetListTimeline: Got List Timeline. Now - 2016-08-02 16:30:10. Target - 2016-08-02 15:13:35.201395
+2016-08-03 06:13:35,658: Top100         : INFO    : Thread-164 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:36,172: tweepy.binder  : INFO    : Thread-128 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760513029419241472', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:36,174: requests.packages.urllib3.connectionpool: INFO    : Thread-128 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:36,698: Top100         : INFO    : Thread-128 : GetListTimeline: Got List Timeline. Now - 2016-08-02 16:13:50. Target - 2016-08-02 15:13:36.698481
+2016-08-03 06:13:37,186: Top100         : INFO    : Thread-164 : GETTWEET   :Got 19 tweets.
+2016-08-03 06:13:37,686: tweepy.binder  : INFO    : Thread-118 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760508918749691904', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:37,688: requests.packages.urllib3.connectionpool: INFO    : Thread-118 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:38,206: Top100         : INFO    : Thread-118 : GetListTimeline: Got List Timeline. Now - 2016-08-02 15:56:41. Target - 2016-08-02 15:13:38.206567
+2016-08-03 06:13:38,698: Top100         : INFO    : Thread-164 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:39,214: tweepy.binder  : INFO    : Thread-118 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760504604027215872', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:39,216: requests.packages.urllib3.connectionpool: INFO    : Thread-118 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:39,703: Top100         : INFO    : Thread-118 : GetListTimeline: Got List Timeline. Now - 2016-08-02 15:42:27. Target - 2016-08-02 15:13:39.703653
+2016-08-03 06:13:39,716: Top100         : INFO    : Thread-176 : GETTWEET   :Got 19 tweets.
+2016-08-03 06:13:40,256: tweepy.binder  : INFO    : Thread-128 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760501021990871040', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:40,260: requests.packages.urllib3.connectionpool: INFO    : Thread-128 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:40,750: Top100         : INFO    : Thread-128 : GetListTimeline: Got List Timeline. Now - 2016-08-02 15:30:13. Target - 2016-08-02 15:13:40.750713
+2016-08-03 06:13:41,239: Top100         : INFO    : Thread-176 : GETTWEET   :Got 19 tweets.
+2016-08-03 06:13:41,258: tweepy.binder  : INFO    : Thread-122 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760497944286027776', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:41,261: requests.packages.urllib3.connectionpool: INFO    : Thread-122 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:41,818: Top100         : INFO    : Thread-122 : GetListTimeline: Got List Timeline. Now - 2016-08-02 15:15:23. Target - 2016-08-02 15:13:41.818774
+2016-08-03 06:13:42,253: Top100         : INFO    : Thread-176 : GETTWEET   :Got 18 tweets.
+2016-08-03 06:13:42,257: tweepy.binder  : INFO    : Thread-118 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760494210055188481', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:42,259: requests.packages.urllib3.connectionpool: INFO    : Thread-118 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:42,789: Top100         : INFO    : Thread-118 : GetListTimeline: Got List Timeline. Now - 2016-08-02 15:10:11. Target - 2016-08-02 15:13:42.789829
+2016-08-03 06:13:43,267: Top100         : INFO    : Thread-164 : GETTWEET   :Got 2 tweets.
+2016-08-03 06:13:43,297: tweepy.binder  : INFO    : Thread-118 : PARAMS: {'slug': b'Top100', 'per_page': b'20', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:43,300: requests.packages.urllib3.connectionpool: INFO    : Thread-118 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:44,073: Top100         : INFO    : Thread-118 : GetListTimeline: Got List Timeline. Now - 2016-08-03 04:43:26. Target - 2016-08-02 15:13:44.073903
+2016-08-03 06:13:44,312: Top100         : INFO    : Thread-172 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:44,782: tweepy.binder  : INFO    : Thread-136 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760697562819067904', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:44,784: requests.packages.urllib3.connectionpool: INFO    : Thread-136 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:45,249: Top100         : INFO    : Thread-136 : GetListTimeline: Got List Timeline. Now - 2016-08-03 04:10:10. Target - 2016-08-02 15:13:45.249970
+2016-08-03 06:13:45,329: Top100         : INFO    : Thread-172 : GETTWEET   :Got 20 tweets.
+2016-08-03 06:13:45,798: tweepy.binder  : INFO    : Thread-128 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760689190132715521', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:45,801: requests.packages.urllib3.connectionpool: INFO    : Thread-128 : Starting new HTTPS connection (1): api.twitter.com
+2016-08-03 06:13:46,361: Top100         : INFO    : Thread-128 : GetListTimeline: Got List Timeline. Now - 2016-08-03 03:30:46. Target - 2016-08-02 15:13:46.361034
+2016-08-03 06:13:46,813: Top100         : INFO    : Thread-164 : GETTWEET   :Got 18 tweets.
+2016-08-03 06:13:46,871: tweepy.binder  : INFO    : Thread-128 : PARAMS: {'per_page': b'20', 'slug': b'Top100', 'max_id': b'760679273149657088', 'owner_screen_name': b'100degreebot'}
+2016-08-03 06:13:46,873: requests.packages.urllib3.connectionpool: INFO    : Thread-128 : Starting new HTTPS connection (1): api.twitter.com
