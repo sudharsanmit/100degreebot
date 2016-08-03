@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "shorturl-1267",
+  "private_key_id": "71318685345a68dfd51b791e4ea6abdba142672c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCaf0AFWRf6XyG/\nv+ozqmE9dMZhOIG/TOOURR8tPckEHmjux5IuLIq3jyJ6bPlprDG9bmt9LDob1KD3\nvkmgxQcxqqod9lmq1y0xajl6Ebs7srcj5xrJEaHoWiitOLjT+Rvp1hHjLD4AjFEq\nygWTgptUAg8W434o7hTJyiq0ZWhFhZD3MKKkUPZD24UgaR39H1/RSXTcf57dog2G\ngajTOmJZSmLq1XMiAPn73SnzJehWsPCdbMxCwNjNrO1u7gR0utHuVa4O7WAXJw8G\nbVGeNuYHVbSMEyCRZhZtg4D+GTDC7RASUayPuKzAwLKfO8Zb0A6KXANYSTNZIwW7\nY12hJ2X1AgMBAAECggEAcy7DsDkII2WhZ6/RD8vKy2KwM/NI6DKOyQ/vem9B2oxB\ndyPa3AnhMZDJB7UPDbWPL8eO47eBaxZPG+UGR5IdFu5B/iyYFUJvMxQa3eMyUAOh\nfmbiFV3L88qj4OEVCxQBt4gdtdxaLVZvfRM4rQ0GeM9AKLRabnFxli/fPrcL0iff\nsknFjGl8rwuUgtz2cuq8SVwBkPfVgBF4MyT3GHYxXA5He6J/h/g5KSst5Y3KRQuJ\no5y0rpflGLNF2lZ6ca+6HzkLu3yqLh/s9MMF7TUysCquQgTkaOG+UvEWjtyn0faV\nyCIWYNnln14/qgHX9qf44NTb7QgdqKR+pFTCOZTXUQKBgQDzCXepNvs1wqvGqjSp\n+LFMwMIIc0aOzGSrpxALboBseG4IXhCc+GmKEVxtFs+nSuaK001D0W46vZXki7wX\n4UsM/afGxSFn1xdihqZSIwrlf4vEHNQLrJ6Vh2b0qidhRAePWk17d5ytlcYsL8EH\nV429i1uie3zm14ULopxqU5qHhwKBgQCivNH6Vnma50qtWOtIUiKsHoGfsJO2pAis\nBLjBRAvgB0yglLj1NYSRtrbbE/tMSRqReFq3ZFNqW1OhpAa/M4sJVMHhu01lh99p\nqTYKGwWbnHztabfOl38ZLMjQUL39G3Be66g8kE0Wh3y4Zcn/lcpl6GZa8UYMv6QZ\nsma4NeTNowKBgB5IYbad+TM7rHe2oZVEPaNYqVSwOGx2n1ycFm22OR5K6zrzrZJB\nibUAcMnO+9TWil9l8MywfdGn6dNubeNz2QwnVw53ZbAwpuNJ79NwNl1eRSYMiYdi\n3Oe41WVLBlkiRubf06O8xbMDZIwA70Zg7HJfuO1IAcoptJQ8kMzW2fxlAoGAEeGP\nbONNj1C0quFnUNX9i036zjIXuOzDKyuFpW61o1MJ/2b3/7F2tJAP/Xhvl009Bxjj\nVt1GMRyBzvP37dBbCZZviz8KXQqV6MU389pOPm/uZiPEl4Wb6Ic8NW95wLLgIP3h\nyW3NmpkegiBlFpk92P61KG70VHhGLrCkir8ZOeMCgYAzxnWOOL5vfUhuyc/8c5OV\ngoAeGRD53xZVfA297jQaoDH0i9y53Bt0Xh6W4Qs4EdhWzCtKRnVyGgdQIWNVgWQQ\nErKXRWcyVii3gyUXNMXzk2ZaUnH4wY89G8CYqC7XWNFJLSbZMNcskjgfu5uOVdyu\nv8mxxjXE3EKCljd/ehIk7w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "socialexperiments@shorturl-1267.iam.gserviceaccount.com",
+  "client_id": "103664537575549730583",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/socialexperiments%40shorturl-1267.iam.gserviceaccount.com"
+}

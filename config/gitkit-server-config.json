@@ -1,0 +1,8 @@
+{
+  "clientId": "673249399733-vbsahrvko4vbqmlpi5qjlirouud1j2tm.apps.googleusercontent.com",
+  "projectId": "shorturl-1267",
+  "serviceAccountEmail": "socialexperiments@shorturl-1267.iam.gserviceaccount.com",
+  "serviceAccountPrivateKeyFile": "/home/185220/src/config/SHORTURL-71318685345a.json",
+  "widgetUrl": "https://shorturl-1267.firebaseapp.com/__/auth/action",
+  "cookieName": "gtoken"
+}
