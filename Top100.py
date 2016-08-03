@@ -92,7 +92,9 @@ class Top100(object):
         per_page=20
         tweets=[]
         for tweet in api.list_timeline(user,list_name,per_page=per_page,max_id=max_id,since_id=since_id):
-            #created_at=datetime.datetime.fromtimestamp(time.mktime(time.strptime(tweet.created_at,'%Y-%m-%d %H:%M:%S')))
+# Slow down the read. 
+            time.sleep(0.5)
+		#created_at=datetime.datetime.fromtimestamp(time.mktime(time.strptime(tweet.created_at,'%Y-%m-%d %H:%M:%S')))
             created_at=tweet.created_at
             #last_24hr=datetime.datetime.now() - timedelta(days=2)
             last_24hr=datetime.datetime.now() - timedelta(hours=15)
