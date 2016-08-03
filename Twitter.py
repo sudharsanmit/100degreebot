@@ -5,7 +5,7 @@ import useraccess
 import time
 import logging
 import logging.config
-import oauth2
+#import oauth2
 import base64
 import urllib
 
