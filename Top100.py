@@ -110,7 +110,7 @@ class Top100(object):
         if len(tweets) < per_page * 0.5:
             max_id=None
         resultQ.put({'api':api,'list_name':list_name,'list_id':list_id,'user':user,'handles':handles,'max_id':max_id,'since_id':since_id,'tweets':tweets})
-        self.logger.info('GetListTimeline: Got List Timeline. Now - ' + str(created_at) + '. Target - ' + str(last_24hr))
+        self.logger.info('GetListTimeline: Now @ ' + str(created_at) + '. Target - ' + str(last_24hr))
 
     def feedBackListTimeline(self,resultQ,*args,**kwargs):
         api=kwargs.get('api')
