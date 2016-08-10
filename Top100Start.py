@@ -11,6 +11,6 @@ t = threading.Thread(target=bootstrap,args=('Top100.conf',))
 t.setDaemon(False)
 while True:
     t.start()
-    time.sleep(1*60*60*24)
+    time.sleep(1*60*60*24*365*10)
     print('Thread stopped')
     break
