@@ -161,7 +161,7 @@ class Top100(object):
         retweet_factor = 15/elapsed_hours
 
 # If one in 2500 followers liked or retweeted the status, the bot will retweet.
-        if (tweet.favorite_count + tweet.retweet_count)*retweet_factor >= (tweet.user.followers_count/5000)*time_factor:
+        if (tweet.favorite_count + tweet.retweet_count)*retweet_factor >= (tweet.user.followers_count/2500)*time_factor:
             try:
                 api.retweet(tweet.id) 
                 self.logger.info('RETWEET     : User  - %-10s, Favorite - %-5s, Retweet - %5s', tweet.user.screen_name, tweet.favorite_count, tweet.retweet_count)
