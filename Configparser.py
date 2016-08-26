@@ -2,6 +2,7 @@ import configparser
 import os
 import sys
 from functools import lru_cache
+import codecs
 
 class Configparser(object):
 # PRIVATE METHODS...
@@ -14,7 +15,8 @@ class Configparser(object):
 
     @lru_cache(maxsize=2048)
     def loadConfig(self,fileName):
-        self._cfgparser.readfp(open(self.getAbsPath(self._CONFIG_PATH + fileName)))
+        #self._cfgparser.readfp(open(self.getAbsPath(self._CONFIG_PATH + fileName)))
+        self._cfgparser.readfp(codecs.open(self.getAbsPath(self._CONFIG_PATH + fileName),'r','utf-8'))
 
     @lru_cache(maxsize=2048)
     def getDirName(self):

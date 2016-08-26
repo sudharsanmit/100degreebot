@@ -100,8 +100,8 @@ class Twitter(object):
 # Return type:	
 # Status object
 
-    def update_status(self,status,in_reply_to_status_id=None,lat=None,long=None,source=None,place_id=None):
-        self._api.update_status(status,in_reply_to_status_id,lat,long,source,place_id)
+    def update_status(self,status,in_reply_to_status_id=None,lat=None,long=None,source=None,place_id=None,media_ids=None):
+        self._api.update_status(status,in_reply_to_status_id,lat,long,source,place_id,media_ids=media_ids)
 
 # API.create_list(name[, mode][, description])
 # Creates a new list for the authenticated user. Accounts are limited to 20 lists.
@@ -226,6 +226,47 @@ class Twitter(object):
 
     def list_timeline(self,owner,slug,since_id=None,max_id=None,per_page=None,page=None):
         return self._api.list_timeline(owner,slug,since_id=since_id,max_id=max_id,per_page=per_page)
+
+    def media_upload(self,media,media_data=None):
+        return self._api.media_upload(media,media_data)
+
+    def mentions_timeline(self,since_id=None,max_id=None):
+        return self._api.mentions_timeline(since_id=since_id,max_id=max_id)
+
+# API.exists_friendship(user_a, user_b)
+# Checks if a friendship exists between two users. Will return True if user_a follows user_b, otherwise False.
+#
+# Parameters:
+# user_a – The ID or screen_name of the subject user.
+# user_b – The ID or screen_name of the user to test for following.
+# Return type:
+# True/False
+
+    def show_friendship(self,source_screen_name=None,target_screen_name=None):
+        return self._api.show_friendship(source_screen_name=source_screen_name,target_screen_name=target_screen_name)
+
+# API.create_favorite(id)
+# Favorites the status specified in the ID parameter as the authenticating user.
+# 
+# Parameters:	id – The numerical ID of the status.
+# Return type:	Status object
+
+    def create_favorite(self,id=None):
+        return self._api.create_favorite(id=id)
+
+# API.statuses_lookup(id[, include_entities][, trim_user][, map])
+# Returns full Tweet objects for up to 100 tweets per request, specified by the id parameter.
+#
+# Parameters:
+# id – A list of Tweet IDs to lookup, up to 100
+# include_entities – A boolean indicating whether or not to include [entities](https://dev.twitter.com/docs/entities) in the returned tweets. Defaults to False.
+# trim_user – A boolean indicating if user IDs should be provided, instead of full user information. Defaults to False.
+# map – A boolean indicating whether or not to include tweets that cannot be shown, but with a value of None. Defaults to False.
+# Return type:
+# list of Status objects
+
+    def statuses_lookup(self,id=None,include_entities=None,trim_user=None,map=None):
+        return self._api.statuses_lookup(id_=id,include_entities=include_entities,trim_user=trim_user,map_=map)
 
 ##  ##################################################################################
 

@@ -26,6 +26,8 @@ class ModelTarget(object):
         self._methodName = kwargs.get('method')
         self._modelType = kwargs.get('type')
         self._input_ports = kwargs.get('input_ports')
+# Transparent delays
+        self._delay = kwargs.get('delay')
         self._args = args
         self._kwargs = kwargs
 
@@ -230,6 +232,9 @@ class ModelTarget(object):
             except:
                 self.logger.error(sys.exc_info())
                 self.getPut(self.getQErr(),method='put',item=sys.exc_info())
+# Transparent delays
+            if (self._delay):
+                time.sleep(int(self._delay))
 
 
     def getTarget(self,*args,**kwargs):

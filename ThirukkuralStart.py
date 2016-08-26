@@ -7,10 +7,10 @@ def bootstrap(_filename):
 #Model Bootstrap
     mb = ModelBootstrap(filename=_filename)
 
-t = threading.Thread(target=bootstrap,args=('Top100.conf',))
+t = threading.Thread(target=bootstrap,args=('Thirukkural.conf',))
 t.setDaemon(False)
 while True:
     t.start()
-    time.sleep(30*60*60*24)
+    time.sleep(1*60*60*24*30)
     print('Thread stopped')
     break
