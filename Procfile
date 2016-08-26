@@ -1,2 +1,2 @@
 worker: python Top100Start.py 
-worker: python ThirukkuralStart.py 
+worker_1: python ThirukkuralStart.py 
