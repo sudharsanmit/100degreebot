@@ -323,6 +323,8 @@ class Thirukkural(object):
             if len(result) > 25: #int(stage_params.get('option_max')):
                 reply['head']=header+str(len(result))
                 reply['body']=stage_params.get('error')
+            elif len(result) == 0:
+                reply['head']=header+str(len(result))
             else:
                 reply['result'] = result
         else:
