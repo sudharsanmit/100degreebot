@@ -230,7 +230,7 @@ class ModelTarget(object):
                 if (self._modelType == 'generator'):
                     break
             except:
-                self.logger.error(sys.exc_info())
+                self.logger.error(str(sys.exc_info()) + ' in ' + self._className + '.' + self._methodName)
                 self.getPut(self.getQErr(),method='put',item=sys.exc_info())
 # Transparent delays
             if (self._delay):
