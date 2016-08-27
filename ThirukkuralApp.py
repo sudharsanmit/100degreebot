@@ -319,16 +319,14 @@ class Thirukkural(object):
 
         if reply.get('error'):
             reply['head']=header
-        elif stage == 5 or (stage == 4 and int(user_option) == 4) or (stage == 1 and int(user_option) > 0): 
+        elif stage == 5 or (stage == 4 and user_option.isdigit() and int(user_option) == 4) or (stage == 1 and user_option.isdigit() and int(user_option) > 0): 
             if len(result) > 25: #int(stage_params.get('option_max')):
                 reply['head']=header+str(len(result))
                 reply['body']=stage_params.get('error')
             elif len(result) == 0:
-                print(len(result))
                 reply['head']=header+str(len(result))
                 reply['error']=stage_params=AppConfig('apps.conf').getAppAttributes('Thirukkural_Stage'+str(api_arr[0])+str(5)).get('error')
             else:
-                print('nonz'+len(result))
                 reply['result'] = result
         else:
             reply['head']=header+str(len(result))
