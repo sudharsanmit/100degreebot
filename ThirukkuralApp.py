@@ -61,8 +61,8 @@ class Thirukkural(object):
                 replies.append(desc[:max_len-offset+1].strip())
             else:
                 replies.append(i[2] + '\n' + str(i[0]) + '.' + i[3])
-        #for i in replies:
-        #    resultQ.put({'api':api,'user':user,'tweet':None,'reply':i})
+        for i in replies:
+            resultQ.put({'api':api,'user':user,'tweet':None,'reply':i})
 
     def postDummyTweet(self,resultQ,*args,**kwargs):
         user=kwargs.get('user')
@@ -324,8 +324,11 @@ class Thirukkural(object):
                 reply['head']=header+str(len(result))
                 reply['body']=stage_params.get('error')
             elif len(result) == 0:
+                print(len(result))
                 reply['head']=header+str(len(result))
+                reply['error']=stage_params=AppConfig('apps.conf').getAppAttributes('Thirukkural_Stage'+str(api_arr[0])+str(5)).get('error')
             else:
+                print('nonz'+len(result))
                 reply['result'] = result
         else:
             reply['head']=header+str(len(result))
@@ -343,6 +346,7 @@ class Thirukkural(object):
             api.update_status(reply,in_reply_to_status_id=tweet.id,media_ids=media_ids) 
         else:
             api.update_status(reply) 
+        self.logger.info('sendReply   : Reply sent.')
         time.sleep(5.0)
 
 class mUnitTest(unittest.TestCase):
